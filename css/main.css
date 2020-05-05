@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Muli&display=swap');
+:root {
+    --mainGray: #59656F;
+    --mainGreen: #6BD425;
+    --mainWhite: #FFFFFF;
+    --mainLightWhite:rgba(255, 255, 255, 0.8);
+    --mainBlack: #1C1C1C;
+    --mainLightBlack: rgba(28, 28, 28, 0.6);
+    
+    --mainSilver: #D7CDCC;
+    --mainRed: #2D080A;
+    --mainBlack: #1C1C1C;
+    
+   
+    --transparentGreen:rgba(107, 212, 37, 0.7);
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: var(--mainGray);
+    color: var(--mainLightWhite);
+}
+/* section title */
+.section-title--special{
+    background-color: var(--transparentGreen);
+    color: var(--mainWhite);
+    padding: 0.5rem 2rem;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+/* navbar */
+
+.app-name{
+    font-size: 2rem;
+    color: var(--mainGreen);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+}
+
+.nav-icon {
+    font-size: 2rem;
+    color: var(--mainLightWhite) !important;
+}
+
+.navbar-toggler {
+    outline-color: var(--mainLightWhite) !important;
+}
+
+.nav-link {
+    color: var(--mainLightWhite);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: var(--mainGreen)
+}
+
+.nav-icon {
+    font-size: 1.5rem;
+    color: var(--mainLightWhite);
+    transition-property: color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+.nav-icon:hover {
+    color: var(--mainGreen) !important;
+    text-decoration: none;
+}
+
+.navbar-brand img, footer img {
+    width: 50px;
+    font-size: 10px;
+}
+
+/* header */
+
+.header {
+    color: var(--mainWhite);
+    clip-path: polygon(0 0,100% 0, 100% 95%, 50% 100%, 0 95%);
+    overflow: hidden;
+}
+
+.height-max {
+    min-height: calc(100vh - 68px);
+    background: url('../img/1.jpg')center/cover fixed no-repeat;
+    animation-name: zoom;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1) translateX(5%);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.title-heading {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-left: 0.3rem solid var(--mainGreen);
+}
+
+
+.title-icon {
+    color: var(--mainGreen);
+}
+
+.title-icon:hover {
+    color: var(--mainGreen);
+    opacity: 0.7;
+}
+
+/* skills */
+.skills-title{
+    font-size: 2rem;
+}
+
+.skills p {
+    font-size: 1.2rem;
+}
+
+.skills-icon{
+    font-size: 2rem;
+    color: var(--mainGreen);
+    background-color: var(--mainLightWhite);
+}
+
+.skills-icon:hover{
+    color: var(--mainGreen);
+}
+
+.skills-underline{
+    width: 12rem;
+    height: 0.3rem;
+    background-color: var(--mainGreen);
+    margin: 1rem auto;
+}
+
+/* inventory section */
+
+.inventory{
+    background:var(--mainLightBlack) ;
+}
+.car-img{
+    height: 250px !important;
+}
+
+.car-card{
+    background-color: var(--mainWhite);
+    border-radius: 0 !important;
+    color: var(--mainBlack);
+}
+
+.card-img{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.car-value{
+    background-color:var(--mainGreen);
+    color: var(--mainBlack);
+    font-weight: 800;
+} 
+
+
+/* question */
+
+.question{
+    background: url(../img/audi-bg.jpg)center/cover fixed no-repeat;
+    font-size: 1.3rem;
+}
+
+.row-color{
+    color:var(--mainGreen);
+
+}
+
+.question-grey{
+    background-color: var(--mainLightBlack);
+}
+
+.question-yellow{
+    background-color: rgba(255, 255, 0, 0.212);
+}
+
+.question-icon{
+    font-size: 4rem;
+    color: var(--mainGreen);
+    transition: all .5s ease-in-out;
+}
+
+.question-icon:hover{
+    transform: translateY(-5%);
+    color: var(--mainWhite);
+}
+
+.question-info{
+    color: var(--mainWhite);
+}
+
+/* featured */
+
+.featured{
+    background-color: var(--mainGray);
+}
+.featured-item{
+    background-color: var(--mainWhite);
+    border-radius: 0.5rem;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    color:var(--mainBlack);
+}
+
+.featured-item:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.featured-icon{
+    font-size: 1.5rem;
+    color: var(--mainBlack);
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+.featured-icon:hover{
+    color: var(--mainGreen);
+}
+
+.img-container{
+    background-color: var(--mainGreen);
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-photo{
+    transition: all .5s ease-in-out;
+    height: 350px;
+}
+
+.img-container:hover .featured-photo{
+   transform: scale(1.3);
+   opacity: 0.5;
+}
+
+.featured-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%,-50%);
+    color: var(--mainBlack);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.featured-link:hover{
+    color: var(--mainWhite);
+}
+
+.img-container:hover .featured-link{
+    opacity: 1;
+}
+
+
+/* footer icons */
+
+.footer{
+    background-color: var(--mainLightBlack);
+}
+.footer-name{
+    font-size: 16px;
+}
+
+.footer-icon{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--mainWhite);
+    transition: all .5s ease-in-out;
+}
+
+.footer-icon:hover{
+    color: var(--mainGreen);
+}
