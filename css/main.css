@@ -83,7 +83,7 @@ body {
 
 .height-max {
     min-height: calc(100vh - 68px);
-    background: url('../img/1.jpg')center/cover fixed no-repeat;
+    background: url('../img/bg-picture.jpg')center/cover fixed no-repeat;
     animation-name: zoom;
     animation-duration: 20s;
     animation-delay: 5s;

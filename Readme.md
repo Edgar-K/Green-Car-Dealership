@@ -2,7 +2,7 @@
 
 ### Description
 
-Green Car is a responsive website where the customers can buy or sell either electric or hybrid cars. This project has been created using Vanilla JavaScript (ES6), Bootstrap -4, Html5, and Css3.
+* Green Car is a responsive website where the customers can buy or sell either electric or hybrid cars. This project has been created using Vanilla JavaScript (ES6), Bootstrap -4, Html5, and Css3.
 -----
 
 ### Demo Green-Car 
