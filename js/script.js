@@ -25,12 +25,12 @@ const CreateCars = (() => {
     //produce cars function
     function produceCars() {
         // data for cars to sell
-        makeCar('Tesla Model S', 'electric', 'img/electric-car-1.jpg', false, '09/2015', 52300, 'sedan', '310 kW/421 Hp', '136000');
-        makeCar('BMW i3', 'electric', 'img/electric-car-2.jpg', false, '07/2017', 23400, 'Small', '125 kW/170 Hp', '75000');
-        makeCar('Hyundai IONIQ', 'electric', 'img/electric-car-3.jpg', false, '08/2017', 19500, 'Saloon', '88 kW/120 Hp', '63000');
-        makeCar('VW Golf 1.4 GTE/Hybrid', 'hybrid', 'img/hybrid-car-1.jpg', false, '05/2017', 23200, 'Saloon', '150 kW/204 Hp', '51000');
-        makeCar('Audi A3 e-tron 1.4 TFSI', 'hybrid', 'img/hybrid-car-2.jpg', false, '02/2016', 19600, 'Estate', '150 kW/204 Hp', '95000');
-        makeCar('Mercedes-Benz C350 e', 'hybrid', 'img/hybrid-car-3.jpg', false, '02/2018', 33800, 'Estate', '155 kW/211 Hp', '27000');
+        makeCar('Tesla Model S', 'electric', 'img/electric-car-1.jpg', false, '09/2015', 52300, 'sedan', '421 Hp', '136000');
+        makeCar('BMW i3', 'electric', 'img/electric-car-2.jpg', false, '07/2017', 23400, 'Small', '170 Hp', '75000');
+        makeCar('Hyundai IONIQ', 'electric', 'img/electric-car-3.jpg', false, '08/2017', 19500, 'Saloon', '120 Hp', '63000');
+        makeCar('VW Golf 1.4 GTE', 'hybrid', 'img/hybrid-car-1.jpg', false, '05/2017', 23200, 'Saloon', '204 Hp', '51000');
+        makeCar('Audi A3 e-tron', 'hybrid', 'img/hybrid-car-2.jpg', false, '02/2016', 19600, 'Estate', '204 Hp', '95000');
+        makeCar('M-Benz C350 e', 'hybrid', 'img/hybrid-car-3.jpg', false, '02/2018', 33800, 'Estate', '211 Hp', '27000');
 
         // data for new cars 2020
         makeCar('Audi E-Tron', 'electric', 'img/new-car-1.jpg', true);
